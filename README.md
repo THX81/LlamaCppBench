@@ -225,7 +225,7 @@ llama-bench \
 | deepseek2 30B.A3B Q3_K - Medium |  10.49 GiB |    23.00 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp256 |        252.49 ± 1.27 |
 | deepseek2 30B.A3B Q3_K - Medium |  10.49 GiB |    23.00 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp512 |     2059.39 ± 219.75 |
 | deepseek2 30B.A3B Q3_K - Medium |  10.49 GiB |    23.00 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg128 |        116.25 ± 9.68 |
-| deepseek2 30B.A3B Q3_K - Medium |  10.49 GiB |    23.00 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg256 |         88.16 ± 2.31 |⏎
+| deepseek2 30B.A3B Q3_K - Medium |  10.49 GiB |    23.00 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg256 |         88.16 ± 2.31 |
 | gpt-oss 20B Q4_K - Medium      |  10.81 GiB |    20.91 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp256 |        373.41 ± 1.62 |
 | gpt-oss 20B Q4_K - Medium      |  10.81 GiB |    20.91 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp512 |     2813.06 ± 514.16 |
 | gpt-oss 20B Q4_K - Medium      |  10.81 GiB |    20.91 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg128 |       164.51 ± 14.06 |
