@@ -1,4 +1,4 @@
-# LlamaCppBench
+# Llama.cpp Bench Results
 Benchmarks of various open models (Qwen, Gemma, GLM, GPT-OSS) on home PC with 16GB dGPU.
 
 Thought I could have it saved somewhere and maybe it's worth of sharing...
@@ -30,7 +30,7 @@ llama-bench \
 
 ## Result table
 
-[📊 View interactive table](https://THX81.github.io/LlamaCppBench/)
+[📊 View interactive table](https://THX81.github.io/LlamaCppBenchResults/)
 
 | model                          |       size |     params | backend    | ngl | threads | type_k | type_v |  fa | mmap |        fitc |            test |                  t/s |
 | ------------------------------ | ---------: | ---------: | ---------- | --: | ------: | -----: | -----: | --: | ---: | ----------: | --------------: | -------------------: |
