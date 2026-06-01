@@ -258,3 +258,69 @@ llama-bench \
 | gpt-oss 20B Q4_K - Medium      |  10.81 GiB |    20.91 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp512 |     3003.44 ± 508.47 |
 | gpt-oss 20B Q4_K - Medium      |  10.81 GiB |    20.91 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg128 |       163.28 ± 12.49 |
 | gpt-oss 20B Q4_K - Medium      |  10.81 GiB |    20.91 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg256 |        137.51 ± 5.39 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp256 |        288.66 ± 0.70 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp512 |     2527.69 ± 405.58 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg128 |         30.32 ± 0.15 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg256 |         30.44 ± 0.07 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp256 |        288.46 ± 1.32 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp512 |     2488.32 ± 394.54 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg128 |         30.34 ± 0.15 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg256 |         30.48 ± 0.09 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           pp256 |        288.52 ± 0.63 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           pp512 |     2510.21 ± 390.11 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           tg128 |         30.34 ± 0.17 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           tg256 |         30.43 ± 0.08 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           pp256 |        288.70 ± 0.52 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           pp512 |     2498.84 ± 380.28 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           tg128 |         30.36 ± 0.16 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           tg256 |         30.43 ± 0.07 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           pp256 |       282.22 ± 15.58 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           pp512 |     2483.00 ± 374.69 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           tg128 |         30.31 ± 0.12 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           tg256 |         30.52 ± 0.09 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           pp256 |        288.83 ± 0.84 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           pp512 |     2494.72 ± 387.18 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           tg128 |         30.35 ± 0.15 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           tg256 |         30.46 ± 0.10 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp256 |        288.23 ± 0.81 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp512 |     2482.18 ± 376.43 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg128 |         30.35 ± 0.17 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg256 |         30.43 ± 0.06 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp256 |        288.19 ± 0.92 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp512 |     2509.24 ± 373.76 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg128 |         30.33 ± 0.16 |
+| qwen35moe 35B.A3B IQ2_M - 2.7 bpw |  10.72 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg256 |         30.44 ± 0.07 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp256 |        253.60 ± 2.53 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp512 |     2144.80 ± 283.94 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg128 |         29.40 ± 0.08 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg256 |         23.04 ± 0.35 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp256 |        254.56 ± 2.37 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           pp512 |     2140.47 ± 276.38 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg128 |         29.40 ± 0.16 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    0 |       65536 |           tg256 |         23.77 ± 0.42 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           pp256 |        252.88 ± 2.11 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           pp512 |     2123.33 ± 268.79 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           tg128 |         29.37 ± 0.14 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           tg256 |         23.27 ± 0.60 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           pp256 |        253.81 ± 1.81 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           pp512 |     2128.22 ± 294.20 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           tg128 |         29.37 ± 0.10 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    0 |       65536 |           tg256 |         23.41 ± 0.28 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           pp256 |        248.60 ± 4.31 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           pp512 |      1158.55 ± 84.64 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           tg128 |         26.74 ± 4.88 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           tg256 |         21.76 ± 2.75 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           pp256 |       211.33 ± 61.53 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           pp512 |      1112.21 ± 85.27 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           tg128 |         26.53 ± 6.34 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q8_0 |   1 |    1 |       65536 |           tg256 |         21.21 ± 3.44 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp256 |       219.75 ± 32.91 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp512 |      1178.76 ± 28.32 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg128 |         26.33 ± 5.69 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       1 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg256 |         21.23 ± 3.10 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp256 |       239.54 ± 20.86 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           pp512 |     1137.45 ± 113.68 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg128 |         26.18 ± 5.66 |
+| qwen35moe 35B.A3B Q3_K - Medium |  15.45 GiB |    34.66 B | Vulkan     |  99 |       4 |   q8_0 |   q4_1 |   1 |    1 |       65536 |           tg256 |         21.57 ± 3.28 |
+
+build: 65ab1f7 (9437)
