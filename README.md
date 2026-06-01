@@ -1,7 +1,7 @@
 # LlamaCppBench
 Benchmarks of various open models (Qwen, Gemma, GLM, GPT-OSS) on home PC with 16GB dGPU.
 
-Tought I could have it saved somewhere and maybe it's worth of sharing...
+Thought I could have it saved somewhere and maybe it's worth of sharing...
 
 ## PC:
 * i3-9100F
