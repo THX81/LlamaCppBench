@@ -5,7 +5,9 @@ Thought I could have it saved somewhere and maybe it's worth of sharing...
 
 # TL;DR
 GLM 4.7 Flash in llama-ui and claude code + mcp usage = balance of quality and tps.
+
 Qwen +quality, -tps
+
 GPT +tps, -quality
 
 ## PC:
