@@ -142,7 +142,7 @@
 </header>
 
 <p>
-  Note: GLM is detected as deepseek2, Qwen3.6 as qwen35moe.
+  Note: deepseek2=GLM, qwen35moe=Qwen3.6, llama ?B=Codestral, mistral3=Devstral, qwen2=qwen2.5.
 </p>
 
 <div id="status"></div>
@@ -152,7 +152,7 @@
 
 <script>
   const REPO_URL = "https://github.com/THX81/LlamaCppBenchResults";
-  const README_URL = "https://raw.githubusercontent.com/THX81/LlamaCppBenchResults/main/README.md";
+  const RESULTS_URL = "https://raw.githubusercontent.com/THX81/LlamaCppBenchResults/main/results.md";
 </script>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -200,15 +200,15 @@
   // ── Main ─────────────────────────────────────────────────────────────────
   async function init() {
     sourceEl.innerHTML = `<a href="${REPO_URL}">${REPO_URL}</a>`;
-    showStatus("Fetching README.md…", "loading");
+    showStatus("Fetching results.md…", "loading");
 
     let md;
     try {
-      const res = await fetch(README_URL);
+      const res = await fetch(RESULTS_URL);
       if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
       md = await res.text();
     } catch (err) {
-      showStatus(`Failed to fetch README: ${err.message}`, "error");
+      showStatus(`Failed to fetch results: ${err.message}`, "error");
       return;
     }
  
