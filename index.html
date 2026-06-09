@@ -222,7 +222,22 @@
     tableWrap.style.display = "block";
  
     // Build columns & init DataTables
-    const columns = table.headers.map(h => ({ title: h }));
+    const NUMERIC_SUFFIX_COL = table.headers.length - 1;
+    const columns = table.headers.map((h, idx) => {
+      if (idx !== NUMERIC_SUFFIX_COL) return { title: h };
+
+      return {
+        title: h,
+        render(data, type) {
+          if (type === "sort" || type === "type") {
+            const match = String(data).match(/^-?[\d.]+/);
+            return match ? parseFloat(match[0]) : -Infinity;
+          }
+          return data;
+        },
+      };
+    });
+    //const columns = table.headers.map(h => ({ title: h }));
  
     // Build tfoot so DataTables has footer cells to inject selects into
     const tfoot = $("<tfoot><tr></tr></tfoot>");
