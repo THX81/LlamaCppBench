@@ -44,6 +44,8 @@ llama-bench \
     -m models/Qwen3/Qwen3-VL-8B-Instruct-Q4_K_M.gguf \
     -m models/Qwen3.6-12B/Qwen3.6-12B-IQ-Q4_K_M.gguf \
     -m models/Qwen3.6-27B/Qwen3.6-27B-Q3_K_S.gguf \
+    -m models/Qwen3/Qwen3-8B-Q3_K_M.gguf \
+    -m models/Qwen3/Qwen3-8B-Q4_K_M.gguf \
     -ngl 99 -fa on \
     -mmp 0,1 -t 1,4 -ctk q8_0 -ctv q8_0,q4_1 -fitc 65536 \
     -p 256,512 -n 128,256
@@ -73,6 +75,8 @@ llama-bench \
     -m models/Qwen3/Qwen3-VL-8B-Instruct-Q4_K_M.gguf = qwen3vl 8B Q4_K - Medium
     -m models/Qwen3.6-12B/Qwen3.6-12B-IQ-Q4_K_M.gguf = qwen35 2B Q4_K - Medium
     -m models/Qwen3.6-27B/Qwen3.6-27B-Q3_K_S.gguf = qwen35 27B Q3_K - Small
+    -m models/Qwen3/Qwen3-8B-Q3_K_M.gguf = qwen3 8B Q3_K - Medium
+    -m models/Qwen3/Qwen3-8B-Q4_K_M.gguf = qwen3 8B Q4_K - Medium
 ```
 
 
